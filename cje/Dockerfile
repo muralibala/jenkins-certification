@@ -1,6 +1,6 @@
 #Questions about open-source Jenkins are now based on Jenkins 2.19.4
  
-FROM jenkins: 2.19.4
+FROM jenkins:2.19.4
 COPY plugins.txt /plugins.txt
 
 #RUN /usr/local/bin/plugins.sh /plugins.txt
